@@ -1,9 +1,11 @@
 <script setup>
 import CubeWithSImpleLoop from "./components/CubeWithSimpleLoop.vue";
+import OrbitControls from './components/OrbitControls.vue'
 </script>
 
 <template>
-  <CubeWithSImpleLoop />
+  <!-- <CubeWithSImpleLoop /> -->
+  <OrbitControls />
 </template>
 
 <style>
